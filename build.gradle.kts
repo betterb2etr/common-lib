@@ -5,8 +5,8 @@ plugins {
 }
 
 allprojects {
-    group = "com.lxp"
-    version = "1.0.0"
+    group = "com.github.Poten-Up-3rd-Project"
+    version = "1.0.1"
 
     repositories {
         mavenCentral()
