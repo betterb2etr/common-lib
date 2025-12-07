@@ -6,7 +6,7 @@ plugins {
 
 allprojects {
     group = "com.github.Poten-Up-3rd-Project"
-    version = "1.0.2"
+    version = "1.0.3"
 
     repositories {
         mavenCentral()
