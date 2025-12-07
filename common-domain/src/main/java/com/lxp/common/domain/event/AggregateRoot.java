@@ -1,10 +1,12 @@
 package com.lxp.common.domain.event;
 
+import com.lxp.common.domain.model.BaseEntity;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public abstract class AggregateRoot {
+public abstract class AggregateRoot<ID> extends BaseEntity<ID> {
 
     private final transient List<DomainEvent> domainEvents = new ArrayList<>();
 
