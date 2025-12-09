@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 /**
  * Spring ApplicationEventPublisher를 사용한 도메인 이벤트 발행 구현체
  */
-@Component
 public class SpringDomainEventPublisher implements DomainEventPublisher {
 
     private final ApplicationEventPublisher applicationEventPublisher;

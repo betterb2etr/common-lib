@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.stereotype.Component;
 
-@Component
-@ConditionalOnMissingBean(RetryPolicy.class)
 public class DefaultRetryPolicy implements RetryPolicy {
 
     @Override

@@ -13,7 +13,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * Read Model Projector
  * 도메인 이벤트를 수신하여 적절한 ReadModelUpdater로 라우팅
  */
-@Component
 public class ReadModelProjector {
 
     private final Map<Class<?>, ReadModelUpdater<?>> updaterMap = new ConcurrentHashMap<>();

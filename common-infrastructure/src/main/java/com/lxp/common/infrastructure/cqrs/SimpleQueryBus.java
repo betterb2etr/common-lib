@@ -14,7 +14,6 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Spring 기반 Query Bus 구현체
  */
-@Component
 public class SimpleQueryBus implements QueryBus {
 
     private final ApplicationContext applicationContext;

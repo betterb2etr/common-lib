@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
  * 트랜잭션 UseCase 실행기
  * UseCase 실행 시 트랜잭션 경계 설정
  */
-@Component
 public class TransactionalUseCaseExecutor {
 
     /**

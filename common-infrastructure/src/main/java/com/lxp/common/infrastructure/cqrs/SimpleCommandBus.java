@@ -15,7 +15,6 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Spring 기반 Command Bus 구현체
  */
-@Component
 public class SimpleCommandBus implements CommandBus {
 
     private final ApplicationContext applicationContext;
