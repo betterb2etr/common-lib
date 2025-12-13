@@ -43,7 +43,7 @@ public class OutboxEvent {
     private String aggregateId;
 
     @Lob
-    @Column(name = "payload", nullable = false)
+    @Column(columnDefinition = "LONGTEXT", name = "payload", nullable = false)
     private String payload;
 
     @Enumerated(EnumType.STRING)
